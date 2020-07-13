@@ -1,0 +1,66 @@
+{"brakes": {
+        "AdjustInstallRimBrakePads": 9.99,
+        "AdjustInstallDiscBrakePads": 14.99,
+        "InstallHydraulicDiscBrakes": 24.99,
+        "InstallMechanicalDiscBrakes": 14.99,
+        "InstallRimBrakeSet": 12.99,
+        "InstallBrakeCablesHousing": 9.99,
+        "InstallBrakeLevers": 12.99,
+        "InstallRotor": 7.99,
+        "BleedHydraulicDiscBrake": 14.99
+    },
+    "drivetrain": {
+        "InstallorOverhaulBottomBracket": 14.99,
+        "InstallChain": 14.99,
+        "RemoveCleanReinstallChain": 9.99,
+        "InstallPedals": 4.99,
+        "InstallCrank1Piece": 14.99,
+        "InstallCrank3Piece": 23.99
+    },
+    "handlebarsForkHeadset": {
+        "InstallHandlebars": 9.99,
+        "InstallBarEnds": 6.99,
+        "InstallHandlebarGrips": 6.99,
+        "InstallHandlebarTape": 8.99,
+        "InstallFork": 34.99,
+        "HeadsetAdjustments": 7.99,
+        "InstallorOverhaulHeadset": 17.99
+    },
+    "installs": {
+        "ChildCarrier": 14.99,
+        "CycleComputer": 9.99,
+        "Fenders": 12.99,
+        "Kickstand": 1.99,
+        "RearRack": 4.99,
+        "Saddle": 1.99,
+        "TrainingWheels": 12.99,
+        "WaterBottleCage": 1.99
+    },
+    "professionalBikeAssembly": {
+        "FreewithBikesPurchasedatMountainSpoke": 0.00
+    },
+    "shifterDerailleur": {
+        "AdjustDerailleurFrontorRear": 14.99,
+        "InstallFrontDerailleur": 6.99,
+        "InstallRearDerailleur": 11.99,
+        "InstallShifterEach": 12.99,
+        "InstallShifterCablesHousing": 12.99
+    },
+    "tuneUpsBuilds": {
+        "BasicTuneUp": 39.99,
+        "PremiumTuneUp": 69.99,
+        "BrakeSystemTuneUp": 24.99,
+        "DrivetrainTuneUp": 24.99,
+        "BikeBuild": 39.99
+    },
+    "wheels": {
+        "InstallInnerTube": 6.99,
+        "RepairInnerTube": 8.99,
+        "TrueWheel": 12.99,
+        "InstallSpokeEach": 5.99,
+        "AdjustHubFrontorRear": 5.99,
+        "OverhaulFrontHub": 14.99,
+        "OverhaulRearHub": 18.99,
+        "WheelSlimePerWheel": 4.99
+    }
+}

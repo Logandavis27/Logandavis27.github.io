@@ -1,0 +1,150 @@
+@media only screen and (min-width: 37.5rem) {
+
+
+    body{
+        margin: 1em;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 17%;
+    }
+
+    .logo img {
+        min-width: 158px;
+        width: 100%;
+    }
+
+    .header {
+        height: 200px;
+        max-width: 1024px;
+        justify-content: center;
+    }
+
+    .headergroup {
+        width: 70%;
+        text-align: center;
+    }
+
+    .headergroup h1 {
+        margin:auto;
+    }
+
+    .headergroup h2 {
+        margin: auto;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+    }
+
+    nav ul li {
+        padding: 11px;
+        margin: auto;
+        text-align: center;
+    }
+
+    section h2{
+        width: 100%;
+    }
+
+    main {
+        flex-wrap: wrap;
+    }
+
+    #raindrops {
+        max-width: 512px;
+    }
+
+    .weather1 {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .highlow {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .weather-summary {
+        margin: auto;
+    }
+
+    .current1 {
+        width: 100%;
+        max-width: 256px;
+    }
+
+    .current2 {
+        align-content: center;
+        max-width: 256px;
+    }
+
+    .summary h2 {
+        margin-top: 45px;
+    }
+
+    section figure img {
+        margin: auto;
+        min-width: 100px;
+    }
+
+    .citystory, .weatherstory {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+    }
+
+    .citystory h2, .weatherstory h2 {
+        width: 100%;
+    }
+
+    .citystory1, .weatherstory1 {
+        width: 100%;
+    }
+
+    #cityfigure, #weatherfigure {
+        width: 45%;
+    }
+    #weatherfigure {
+        margin: 5px;
+        float: left;
+    }
+
+    #cityfigure {
+        float: right;
+        margin : 5px;
+    }
+
+    table {
+        display: flex;
+        justify-content: center;
+    }
+
+    .weathergallery {
+        margin: auto;
+        max-width: 931px;
+    }
+
+    .jsondata article {
+        min-width: 260px;
+        width: 30%;
+        background: rgba(158, 6, 6, .40);
+        border: 2px solid #9e0606;
+        border-radius: 1rem;
+        align-items: flex-start;
+    }
+
+    .jsondata {
+        align-items: flex-start;
+    }
+}

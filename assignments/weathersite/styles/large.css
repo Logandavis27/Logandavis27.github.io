@@ -1,0 +1,80 @@
+@media only screen and (min-width: 64rem) {
+
+    body{
+        margin: auto;
+        max-width: 1500px;
+    }
+
+    header {
+        max-width: 1500px;
+    }
+
+    .headergroup {
+        width: 58%;
+    }
+
+    .weatherimg {
+        max-width: 30%;
+    }
+
+    .weather1 {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+    }
+
+    #raindrops{
+        min-width: 100%;
+    }
+
+    td {
+        font-size: 16px;
+    }
+    .weather-summary {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #forecast {
+        width: 100%;
+    }
+
+    .highlow {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .current2 {
+        margin: auto;
+    }
+
+    #maingallery {
+        margin: 2px;
+    }
+
+    .weathergallery a:hover {
+        border-radius: 1em;
+        border: 2px solid rgba(0, 32, 73, .85);
+        box-shadow: 5px 5px 10px rgba(158, 6, 6, .40);
+        transition: 0.5s;
+        font-size: 110%;
+        cursor: zoom-in;
+    }
+
+    .weathergallery {
+        margin: auto;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        max-width: 1447px;
+    }
+
+    .weathergallery a img{
+        opacity: .75;
+    }
+    .weathergallery a img:hover{
+        opacity: 1;
+        transition: .5s;
+    }
+
+}

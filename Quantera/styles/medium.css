@@ -1,0 +1,56 @@
+@media only screen and (min-width: 37.5rem) {
+
+    body{
+        margin: 2%;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide {
+        display: flex;
+        flex-flow: wrap;
+    }
+
+    nav ul li {
+        text-align: center;
+        display: flex;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+        width: 23%;
+        min-height: 3rem;
+        margin: auto;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between
+    }
+
+    .leadimage {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .leadimage img {
+        width: 95%;
+    }
+
+    .homearticle {
+        width: 95%;
+        margin: auto;
+    }
+
+    footer {
+        width: 95%;
+        margin: auto;
+    }
+
+
+
+
+
+}

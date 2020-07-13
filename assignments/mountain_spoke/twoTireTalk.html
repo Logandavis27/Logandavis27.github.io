@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Two Tire Talk | The Mountain Spoke | Your Spokes People</title>
+        <meta name="author" content="Logan C Davis">
+        <meta name="description" content="Contact Page for owner operated company that caters to bicycle enthusiasts in the Bozeman, Montana region">
+        <link href="https://fonts.googleapis.com/css?family=Encode+Sans%7CFrijole%7CIM+Fell+DW+Pica+SC%7CJosefin+Slab%7CMontserrat" rel="stylesheet">
+        <link href="styles/normalize.css" rel="stylesheet">
+        <link href="styles/main.css" rel="stylesheet">
+        <link href="styles/medium.css" rel="stylesheet">
+        <link href="styles/large.css" rel="stylesheet">
+        <link rel="icon" type="image/jpg" href="images/icon.jpg">
+    </head>
+    <body>
+        <header includehtml="modules/header.html">
+        </header>
+        <nav>
+            <button onclick="toggleNavMenu()">&#9776;</button>
+            <ul id="navmenu" class="hide">
+                <li><a href="index.html">Center Spoke</a></li>
+                <li><a href="trailHead.html">Trail Head</a></li>
+                <li><a href="peddleVents.html">Peddle Vents</a></li>
+                <li><a href="spinCycle.html">Spin Cycle</a></li>
+                <li><a href="kickStand.html">Kick Stand</a></li>
+                <li><a href="twoTireTalk.html">Two Tire Talk</a></li>
+            </ul>
+        </nav>
+        <main id="mainindex">
+            <section class="leadimage">
+                <h6>validation only</h6>
+                <picture id="messengerrider">
+                    <source media="(min-width: 1024px)" srcset="images/twotiremedlarge.jpg">
+                    <source media="(min-width: 600px)" srcset="images/twotiremedlarge.jpg">
+                    <img src="images/twotiresmall.jpg" alt="Rider in the grass">
+                </picture>
+            </section>
+            <h3>Two Tire Talk</h3>
+            <h3>Contact us faster than a bike messenger, maybe...</h3>
+            <p>Ride to us, call us, or message us. We're here to help!</p>
+            <article class="contactus">
+                <h6>for validation only</h6>
+                <section class="ride">
+                    <h3>Ride to us</h3>
+                    <p>Please bring in your bike if you need service or have general operation/service questions.</p>
+                    <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.9314410303914!2d-111.09290082013726!3d45.67227662765851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5345459ab72cb6df%3A0xbb98968f9648ea88!2s3950+Valley+Commons+Dr%2C+Bozeman%2C+MT+59718!5e0!3m2!1sen!2sus!4v1531957763030" width="400" height="300" style="border:0" allowfullscreen></iframe>
+                </section>
+                <section class="callus">
+                    <h3>Call us</h3>
+                    <p>Please call us if you have any questions or wish to make a reservation over the phone. You can also contact us by email.</p>
+                    <table class="phoneafriend">
+                        <thead>
+                            <tr>
+                                <th>Department</th>
+                                <th id="center" colspan="2">Number</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Mountain Spoke</td>
+                                <td>&#40;406&#41; MTN-SPOK</td>
+                                <td>&#40;406&#41; 686-7765</td>
+                            </tr>
+                            <tr>
+                                <td>Trail Head</td>
+                                <td>&#40;406&#41; FUN-RIDE</td>
+                                <td>&#40;406&#41; 386-7433</td>
+                            </tr>
+                            <tr>
+                                <td>Spin Cycle</td>
+                                <td>&#40;406&#41; NEW-BIKE</td>
+                                <td>&#40;406&#41; 639-2453</td>
+                            </tr>
+                            <tr>
+                                <td>Peddle Vents</td>
+                                <td>&#40;406&#41; FUN-RACE</td>
+                                <td>&#40;406&#41; 386-7223</td>
+                            </tr>
+                            <tr>
+                                <td>Kick Stand</td>
+                                <td>&#40;406&#41; FIX-BIKE</td>
+                                <td>&#40;406&#41; 349-2453</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section class="messageus">
+                    <h3>Send Us a Question</h3>
+                    <h3>We'll help you get an answer</h3>
+                    <p>Please fill out this form and a Spokes Person will get back to you. If you'd prefer, you can also call us.</p>
+                    <form method="get" action="thanks2.html" name="message" id="message">
+                        <fieldset>
+                            <legend>Your Information</legend>
+                            <label class="top">First Name&#58;<input name="firstname" type="text" value="" placeholder="Full Name" pattern="[a-zA-Z -._]{5,99}" required></label>
+                            <label class="top">Last Name&#58;<input name="lastname" type="text" value="" placeholder="Full Name" pattern="[a-zA-Z -._]{5,99}" required></label>
+                            <label class="top">Email&#58;<input name="email" type="email" value="" placeholder="John.Smith@MountainSpoke.com" required></label>
+                            <label class="top">Phone&#58;<input name="phone" type="tel" value="" placeholder="3335556789" pattern="[0-9]{10}" required></label>
+                            <label class="top">Subject&#58;
+                                <input type="text" name="question" list="questions" required>
+                                <datalist id="questions">
+                                    <option value="---">What Subject best describes your question&#63;</option>
+                                    <option value="General">Miscellaneous </option>
+                                    <option value="Trail Head">Tours and Reservations</option>
+                                    <option value="Peddle Vents">Area Races and Registrations</option>
+                                    <option value="Spin Cycle">Bicycle Sales</option>
+                                    <option value="Kick Stand">Bicycle Service</option>
+                                </datalist>
+                            </label>
+                            <label class="top">Your Question or Comment&#58;
+                                <textarea class="sbs" rows="6" cols="60" name="accomidations" placeholder="What trails in the area would you recommend for a beginner level cyclist&#63;" required></textarea>
+                            </label>
+                        </fieldset>
+                        <input type="submit" value="SUBMIT" class="submitBtn">
+                    </form>
+                    <p>We know that you care how your information is used. We treat your personal information with care and respect. We are pleased to hear from our friends and welcome your questions.</p>
+                </section>
+            </article>
+        </main>
+        <footer>
+            <aside>
+                <section class="socialmedia">
+                    <h6>validation only</h6>
+                    <a target="_blank" href="https://www.facebook.com"> <img class="icon" src="images/flogo_RGB_HEX-512.png" alt="FaceBook"></a>
+                    <a target="_blank" href="https://www.youtube.com"> <img class="icon" src="images/yt_icon_rgb.png" alt="YouTube"></a>
+                    <a target="_blank" href="https://twitter.com"> <img class="icon" src="images/Twitter_Logo_Blue.png" alt="Twitter"></a>
+                </section>
+                <p>Have a question? Email us at anywho@mountainspoke.com</p>
+                <p>&copy;2018 All Rights Reserved | The Mountain Spoke | <span id="currentdate"></span></p>
+                <p><a href="resources.html">Resources which require credit for materials on this site</a></p>
+            </aside>
+        </footer>
+        <script src="scripts/include.js"></script>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/active.js"></script>
+    </body>
+</html>

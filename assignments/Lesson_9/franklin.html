@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Storm Trooper - City of Franklin</title>
+        <meta name="author" content="Logan C Davis">
+        <meta name="description" content="Weather information for visitors and residents of Franklin with a Sci-Fi twist">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2%7CGeostar+Fill%7COrbitron%7CTitillium+Web" rel="stylesheet">
+        <link href="styles/normalize.css" rel="stylesheet">
+        <link href="styles/main.css" rel="stylesheet">
+        <link href="styles/medium.css" rel="stylesheet">
+        <link href="styles/large.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles/progressive-image.css">
+        <link rel="icon" type="image/png" href="images/favicon.ico">
+    </head>
+    <body>
+        <header class="header">
+            <picture class="logo">
+                <source media="(min-width: 1024px)" srcset="images/stormgroup.png">
+                <source media="(min-width: 600px)" srcset="images/stormbody.png">
+                <img src="images/stormhead.png" alt="Logo">
+            </picture>
+            <div class="headergroup">
+                <h1>The Storm Trooper</h1>
+                <h2>Everywhere We Mist</h2>
+            </div>
+        </header>
+        <nav>
+            <button onclick="toggleNavMenu()">&#9776;</button>
+            <ul id="navmenu" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="#">Franklin</a></li>
+                <li><a href="#">Greenville</a></li>
+                <li><a href="#">Springfield</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main class="citymain">
+            <aside class="weather">
+                <div class="weather1">
+                    <h6>test</h6> <!-- for validation -->
+                    <picture id="raindrops">
+                        <source media="(min-width: 1024px)" srcset="images/largefranklin.png">
+                        <source media="(min-width: 600px)" srcset="images/mediumfranklin.png">
+                        <img src="images/smallfranklin.png" alt="Franklin Countryside">
+                        </picture>
+                        <!-- <img src="images/largefranklin.png" alt="The Big Sky of Franklin" sizes="50vw"
+                             srcset="images/smallfranklin.png 450w,
+                                     images/mediumfranklin.png 800w,
+                                     images/largefranklin.png 1250w">
+                    </picture> -->
+                    <section class="weather-summary">
+                        <h6>validation</h6>
+                        <div class= "advice">
+                        </div>
+                        <h2 id="forecast">Forecast</h2>
+                        <h2>Weather conditions for <span id="place">city</span>:</h2>
+                        <div class="highlow">
+                            <section class="current1">
+                                <h6>text</h6>
+                                <img src="images/placeholder.png" alt="current weather" id="weather_icon">
+                            </section>
+                            <section class="current2">
+                                <h6>text</h6>
+                            <p>Current temperature is:  <span id="currentTemp">00</span>&deg;F</p>
+                            <p>Weather Conditions: <span id="weatherDesc">00</span></p>
+                            <p>Expected High Temperature:  <span id="highTemp">00</span>&deg;F</p>
+                            <p>Expected Low Temperature:  <span id="lowTemp">00</span>&deg;F</p>
+                            <p>Wind Speed:  <span id="currentWind">00</span> MPH</p>
+                            </section>
+                        </div>
+                        <div class="current">
+                        </div>
+                        <div class="conditions">
+                        </div>
+                    </section>
+                </div>
+                <aside class="forecast">
+                    <table>
+                        <tr>
+                            <th colspan="10"><p>10 Day Forecast</p></th>
+                        </tr>
+                        <tr>
+                            <td><span id="day1"></span></td>
+                            <td><span id="day2"></span></td>
+                            <td><span id="day3"></span></td>
+                            <td><span id="day4"></span></td>
+                            <td><span id="day5"></span></td>
+                            <td><span id="day6"></span></td>
+                            <td><span id="day7"></span></td>
+                            <td><span id="day8"></span></td>
+                            <td><span id="day9"></span></td>
+                            <td><span id="day10"></span></td>
+                        </tr>
+                        <tr>
+                            <td>89&deg;F</td>
+                            <td>87&deg;F</td>
+                            <td>78&deg;F</td>
+                            <td>75&deg;F</td>
+                            <td>72&deg;F</td>
+                            <td>72&deg;F</td>
+                            <td>79&deg;F</td>
+                            <td>83&deg;F</td>
+                            <td>85&deg;F</td>
+                            <td>89&deg;F</td>
+                        </tr>
+                        <tr>
+                            <td>Sunny</td>
+                            <td>Sunny</td>
+                            <td>Sunny</td>
+                            <td>Sunny</td>
+                            <td>Sunny</td>
+                            <td>Sunny</td>
+                            <td>Sunny</td>
+                            <td>Sunny</td>
+                            <td>Sunny</td>
+                            <td>Sunny</td>
+                        </tr>
+                        <tr>
+                            <td><img class="weatherimg" src="images/sw-deathstar.png" alt="Sunny icon"></td>
+                            <td><img class="weatherimg" src="images/sw-deathstar.png" alt="Sunny icon"></td>
+                            <td><img class="weatherimg" src="images/sw-deathstar.png" alt="Sunny icon"></td>
+                            <td><img class="weatherimg" src="images/sw-deathstar.png" alt="Sunny icon"></td>
+                            <td><img class="weatherimg" src="images/sw-deathstar.png" alt="Sunny icon"></td>
+                            <td><img class="weatherimg" src="images/sw-deathstar.png" alt="Sunny icon"></td>
+                            <td><img class="weatherimg" src="images/sw-deathstar.png" alt="Sunny icon"></td>
+                            <td><img class="weatherimg" src="images/sw-deathstar.png" alt="Sunny icon"></td>
+                            <td><img class="weatherimg" src="images/sw-deathstar.png" alt="Sunny icon"></td>
+                            <td><img class="weatherimg" src="images/sw-deathstar.png" alt="Sunny icon"></td>
+                        </tr>
+                    </table>
+                </aside>
+            </aside>
+            <section class="citystory">
+                <h2>The City of Franklin - The Misty City</h2>
+                <article class="citystory1">
+                    <figure id="cityfigure" class="figure">
+                        <a href="images/bridgefogsmall.jpg"
+                           data-srcset="images/bridgefogsmall.jpg 800w, images/bridgefoglarge.jpg 1200w"
+                           data-sizes="100vw"
+                           class="progressive replace">
+                            <img src="images/bridgefogtiny.jpg" class="preview" alt="Bridge going into the foggy city" />
+                        </a>
+                    </figure>
+                    <h3>The Dark Side Fog Came and Never Left</h3>
+                    <p>I'm surprised you had the courage to take the responsibility yourself. I suggest you try it again, Luke. This time, let go your conscious self and act on instinct. You are a part of the Rebel Alliance and a traitor! Take her away! Remember, a Jedi can feel the Force flowing through him. I need your help, Luke. She needs your help. I'm getting too old for this sort of thing. What!? Remember, a Jedi can feel the Force flowing through him.The plans you refer to will soon be back in our hands. A tremor in the Force. The last time I felt it was in the presence of my old master. I can't get involved! I've got work to do! It's not that I like the Empire, I hate it, but there's nothing I can do about it right now. It's such a long way from here. She must have hidden the plans in the escape pod. Send a detachment down to retrieve them, and see to it personally, Commander. There'll be no one to stop us this time! Your eyes can deceive you. Don't trust them.
+                    </p>
+                </article>
+            </section>
+            <section class="weatherstory">
+                <h2>Weather Story of the Week</h2>
+                <article class="weatherstory1">
+                    <figure id="weatherfigure" class="figure">
+                        <a href="images/starweathersmall.jpg"
+                           data-srcset="images/starweathersmall.jpg 800w, images/starweatherlarge.jpg 1200w"
+                           data-sizes="100vw"
+                           class="progressive replace">
+                            <img src="images/starweathertiny.jpg" class="preview" alt="adult looking at the weather" />
+                        </a>
+                    </figure>
+                    <h3>Mist Everything and Everything Mist</h3>
+                    <p>You mean it controls your actions? I'm surprised you had the courage to take the responsibility yourself. What!? I want to come with you to Alderaan. There's nothing for me here now. I want to learn the ways of the Force and be a Jedi, like my father before me. Don't underestimate the Force. Look, I ain't in this for your revolution, and I'm not in it for you, Princess. I expect to be well paid. I'm in it for the money. All right. Well, take care of yourself, Han. I guess that's what you're best at, ain't it? I have traced the Rebel spies to her. Now she is my only link to finding their secret base. Hokey religions and ancient weapons are no match for a good blaster at your side, kid. Look, I ain't in this for your revolution, and I'm not in it for you, Princess. I expect to be well paid. I'm in it for the money. Ye-ha! Look, I can take you as far as Anchorhead. You can get a transport there to Mos Eisley or wherever you're going. Dantooine. They're on Dantooine. Obi-Wan is here. The Force is with him. I call it luck.
+                    </p>
+                </article>
+            </section>
+            <section class="jsondata1"><h6>text</h6>
+            </section>
+        </main>
+        <footer>
+            <aside>
+                <p>The Storm Trooper</p>
+                <p>123 Main St.</p>
+                <p>Franklin, MU 83454</p>
+                <p>(999) 999.9999</p>
+                <p>contact@theurl.com</p>
+            </aside>
+            <p class="footer-bar">&copy;2018 All Rights Reserved | The Storm Trooper | Weather data provided by OPENWEATHERMAP <span id="currentdate"></span></p>
+        </footer>
+        <script src="scripts/weatherapi.js"></script>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/progressive-image.js"></script>
+        <script src="scripts/towndataf.js"></script>
+    </body>
+</html>

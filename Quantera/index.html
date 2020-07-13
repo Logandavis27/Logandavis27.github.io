@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home | Quantera Energy Resources</title>
+        <meta name="author" content="Logan C Davis">
+        <meta name="description" content="Home page of Quantera Energy Resources">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+        <link href="styles/normalize.css" rel="stylesheet">
+        <link href="styles/main.css" rel="stylesheet">
+        <link href="styles/medium.css" rel="stylesheet">
+        <link href="styles/large.css" rel="stylesheet">
+        <link rel="icon" type="image/ico" href="images/qlogo.ico">
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="images/qlogo.png"></a>
+        </header>
+        <nav>
+            <button onclick="toggleNavMenu()">&#9776;</button>
+            <ul id="navmenu" class="hide">
+                <li><a href="index.html">Quantera Energy</a></li>
+                <li><a href=#>English</a></li>
+                <li><a href=#>Espanol</a></li>
+                <li><a href=#>Francais</a></li>
+            </ul>
+        </nav>
+        <main class="mainindex">
+            <section class="leadimage">
+                <picture id="dump">
+                    <source media="(min-width: 1024px)" srcset="images/disposal-dump-garbage-128421.jpg">
+                    <source media="(min-width: 600px)" srcset="images/disposal-dump-garbage-128421.jpg">
+                    <img src="images/disposal-dump-garbage-128421.jpg" alt="Disposal of Garbage">
+                </picture>
+            </section>
+            <article class="homearticle">
+                <h3>Quantera has developed a new modularized process whereby, following a feasibility study of the amount and kind of waste a client may have, a process facility can be designed and constructed to meet the clients specific waste streams by using:</h3>
+                <ul class="homelist">
+                    <li>Over 200 years of combined engineering and waste disposal experience</li>
+                    <li>New modularized facility concept</li>
+                    <li>Patented process using high temperature and pressure steam</li>
+                    <li>Engineering design that eliminates up to 97% of the waste treated</li>
+                    <li>Ease of construction and operation</li>
+                    <li>Multiple manufactured commodities from electricity, ammonia and/or urea, bio-diesel and clean drinking water.</li>
+                </ul>
+            </article>
+        </main>
+        <footer>
+            <aside>
+                <p>Have a question? Email us at quanteraenergy@gmail.com</p>
+                <p>&copy;2018 All Rights Reserved | Quantera Energy | <span id="currentdate"></span></p>
+            </aside>
+        </footer>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/active.js"></script>
+    </body>
+</html>

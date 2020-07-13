@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Storm Trooper - City of Franklin</title>
+        <meta name="author" content="Logan C Davis">
+        <meta name="description" content="Weather information for visitors and residents of Franklin with a Sci-Fi twist">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2|Geostar+Fill|Orbitron|Titillium+Web" rel="stylesheet">
+        <link href="styles/normalize.css" rel="stylesheet">
+        <link href="/assignments/lesson_5/styles/main-5.css" rel="stylesheet">
+        <link href="/assignments/lesson_5/styles/medium-5.css" rel="stylesheet">
+        <link href="/assignments/lesson_5/styles/large-5.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="images/favicon.ico">
+    </head>
+    <body>
+        <header class="header">
+            <picture class="logo">
+                <source media="(min-width: 1024px)" srcset="images/stormgroup.png">
+                <source media="(min-width: 600px)" srcset="images/stormbody.png">
+                <img src="images/stormhead.png" alt="Logo">
+            </picture>
+            <div class="headergroup">
+                <h1>The Storm Trooper</h1>
+                <h2>Everywhere We Mist</h2>
+            </div>
+        </header>
+        <nav>
+            <button onclick="toggleNavMenu()">&#9776;</button>
+            <ul id="navmenu" class="hide">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Franklin</a></li>
+                <li><a href="#">Greenville</a></li>
+                <li><a href="#">Springfield</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <aside class="weather">
+                <section class="weather1">
+                    <h6>test</h6> <!-- for validation -->
+                    <picture id="raindrops">
+                    <source media="(min-width: 1024px)" srcset="images/bubble3.png">
+                    <source media="(min-width: 600px)" srcset="images/bubble2.png">
+                    <img src="images/bubble1.png" alt="Logo">
+                    </picture>
+                    <section class="summary">
+                        <h2 id="weatherheader">Franklin</h2>
+                        <section class="current1">
+                            <h3>Currently Foggy</h3>
+                            <figure>
+                                <img class="weatherimg" src="images/fog.ico" alt="Misty icon">
+                            </figure>
+                        </section>
+                        <section class="current2">
+                            <h3>Todays Summary</h3>
+                            <aside id="highlow">
+                                <p>High: 45&#176;F</p>
+                                <p>Low: -3&#176;F</p>
+                            </aside>
+                            <aside id="precipwind">
+                                <p>Percipitation: 100%</p>
+                                <p>Wind: 12 Parsecs SW</p>
+                            </aside>
+                        </section>
+                    </section>
+                </section>
+                <aside class="forecast">
+                    <table>
+                        <tr>
+                            <th colspan="10"><p>10 Day Forecast</p></th>
+                        </tr>
+                        <tr>
+                            <td><span id="day1"></span></td>
+                            <td><span id="day2"></span></td>
+                            <td><span id="day3"></span></td>
+                            <td><span id="day4"></span></td>
+                            <td><span id="day5"></span></td>
+                            <td><span id="day6"></span></td>
+                            <td><span id="day7"></span></td>
+                            <td><span id="day8"></span></td>
+                            <td><span id="day9"></span></td>
+                            <td><span id="day10"></span></td>
+                        </tr>
+                        <tr>
+                            <td>89&deg;F</td>
+                            <td>87&deg;F</td>
+                            <td>78&deg;F</td>
+                            <td>75&deg;F</td>
+                            <td>72&deg;F</td>
+                            <td>72&deg;F</td>
+                            <td>79&deg;F</td>
+                            <td>83&deg;F</td>
+                            <td>85&deg;F</td>
+                            <td>89&deg;F</td>
+                        </tr>
+                        <tr>
+                            <td>Foggy</td>
+                            <td>Hazey</td>
+                            <td>Smoggy</td>
+                            <td>Cloudy</td>
+                            <td>Smokey</td>
+                            <td>Steamy</td>
+                            <td>Veiled</td>
+                            <td>Overcast</td>
+                            <td>Dreary</td>
+                            <td>Murky</td>
+                        </tr>
+                        <tr>
+                            <td><img class="weatherimg" src="images/fog.ico" alt="Misty icon"></td>
+                            <td><img class="weatherimg" src="images/fog.ico" alt="Misty icon"></td>
+                            <td><img class="weatherimg" src="images/fog.ico" alt="Misty icon"></td>
+                            <td><img class="weatherimg" src="images/fog.ico" alt="Misty icon"></td>
+                            <td><img class="weatherimg" src="images/fog.ico" alt="Misty icon"></td>
+                            <td><img class="weatherimg" src="images/fog.ico" alt="Misty icon"></td>
+                            <td><img class="weatherimg" src="images/fog.ico" alt="Misty icon"></td>
+                            <td><img class="weatherimg" src="images/fog.ico" alt="Misty icon"></td>
+                            <td><img class="weatherimg" src="images/fog.ico" alt="Misty icon"></td>
+                            <td><img class="weatherimg" src="images/fog.ico" alt="Misty icon"></td>
+                        </tr>
+                    </table>
+                </aside>
+            </aside>
+            <section class="citystory">
+                <h2>The City of Franklin - The Misty City</h2>
+                <article class="citystory1">
+                    <h3>The Dark Side Fog Came and Never Left</h3>
+                    <p>Statuendum effecerunt deveniatur contrariae in addiscerem theologiae ne. Dici ei fere utor id vice sint ii nisi. Ii opinionem imaginata fortassis essentiae ab. Recte et signa vi sitas. Id videam delebo pudeat quinta nullum si ac oculos du. Catholicae nia viderentur institutum ita materialis. Du ii re meis opus iste co. Veritate ad loquendo ignorans excitari gi. Interire universo facilius ex at de conversa si. Is et facillimam varietates ne crediderim et supponatur. Dei cum ideam plura sonum versa foret est sum pauca. Male haud imo ima una sola rogo sim quum. Multae de ex se summum ausint. Calebat agendam non cum cui ipsamet. Qui anno omne hae vis sae meam unam vidi. Sumpta initio habebo ea fallit putare creari id. Inspiciam sed recurrunt quocunque aut rei improviso examinare non. At in ausit certi facit terra alias ii ex favis. Aggredi ginabor et et ha se suppono quiddam gallice saepius. His actum imo vitro fal bonus vos istam istas. Usu imo gnum casu etsi vice sive. Jam rom est externo putarim sub naturam. Mox sae persuadeam dat dubitandum excogitent non. Pro sit sub istam tales fas somno quies notum multa. Assignare continere cur perfacile est ego.
+                    </p>
+                </article>
+                <figure id="cityfigure" class="figure">
+                    <img src="images/franklin.png" alt="Franklin in the Mist">
+                </figure>
+            </section>
+            <section class="weatherstory">
+                <h2>Weather Story of the Week</h2>
+                <figure id="weatherfigure" class="figure">
+                    <img src="images/roadmist.png" alt="Road in the Mist">
+                </figure>
+                <article class="weatherstory1">
+                    <h3>Mist Everything and Everything Mist</h3>
+                    <p>Statuendum effecerunt deveniatur contrariae in addiscerem theologiae ne. Dici ei fere utor id vice sint ii nisi. Ii opinionem imaginata fortassis essentiae ab. Recte et signa vi sitas. Id videam delebo pudeat quinta nullum si ac oculos du. Catholicae nia viderentur institutum ita materialis. Du ii re meis opus iste co. Veritate ad loquendo ignorans excitari gi. Interire universo facilius ex at de conversa si. Is et facillimam varietates ne crediderim et supponatur. Dei cum ideam plura sonum versa foret est sum pauca. Male haud imo ima una sola rogo sim quum. Multae de ex se summum ausint. Calebat agendam non cum cui ipsamet. Qui anno omne hae vis sae meam unam vidi. Sumpta initio habebo ea fallit putare creari id. Inspiciam sed recurrunt quocunque aut rei improviso examinare non. At in ausit certi facit terra alias ii ex favis. Aggredi ginabor et et ha se suppono quiddam gallice saepius. His actum imo vitro fal bonus vos istam istas. Usu imo gnum casu etsi vice sive. Jam rom est externo putarim sub naturam. Mox sae persuadeam dat dubitandum excogitent non. Pro sit sub istam tales fas somno quies notum multa. Assignare continere cur perfacile est ego.
+                    </p>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <aside>
+                <p>The Storm Trooper</p>
+                <p>123 Main St.</p>
+                <p>Franklin, MU 83454</p>
+                <p>(999) 999.9999</p>
+                <p>contact@theurl.com</p>
+            </aside>
+            <p class="footer-bar">&copy;2018 All Rights Reserved | The Storm Trooper | <span id="currentdate"></span></p>
+        </footer>
+        <script src="scripts/currentdate.js"></script>
+    </body>
+</html>

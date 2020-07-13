@@ -1,0 +1,38 @@
+@media only screen and (min-width: 64rem) {
+
+    body {
+        max-width: 1024px;
+        margin: 50px auto;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+    .mainindex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .leadimage {
+        width: 49%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .leadimage img {
+        width: 95%;
+    }
+
+    .homearticle {
+        height: 322px;
+        width: 49%;
+        margin: auto;
+        margin-top: 1%;
+    }
+
+    .homearticle h3 {
+        margin: auto;
+        margin-bottom: 1%;
+    }
+}

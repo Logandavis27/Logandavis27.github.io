@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Storm Trooper - Weather Submission Form</title>
+        <meta name="author" content="Logan C Davis">
+        <meta name="description" content="Weather information submission form for visitors and residents">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2%7CGeostar+Fill%7COrbitron%7CTitillium+Web" rel="stylesheet">
+        <link href="styles/normalize.css" rel="stylesheet">
+        <link href="styles/main-8.css" rel="stylesheet">
+        <link href="styles/medium-8.css" rel="stylesheet">
+        <link href="styles/large-8.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles/progressive-image-8.css">
+        <link rel="icon" type="image/png" href="images/favicon.ico">
+    </head>
+    <body>
+        <header class="header">
+            <picture class="logo">
+                <source media="(min-width: 1024px)" srcset="images/stormgroup.png">
+                <source media="(min-width: 600px)" srcset="images/stormbody.png">
+                <img src="images/stormhead.png" alt="Logo">
+            </picture>
+            <div class="headergroup">
+                <h1>The Storm Trooper</h1>
+                <h2>Everywhere We Mist</h2>
+            </div>
+        </header>
+        <nav>
+            <button onclick="toggleNavMenu()">&#9776;</button>
+            <ul id="navmenu" class="hide">
+                <li><a href="#">Home</a></li>
+                <li><a href="franklin-8.html">Franklin</a></li>
+                <li><a href="#">Greenville</a></li>
+                <li><a href="#">Springfield</a></li>
+                <li class="active"><a href="#">Storm Center</a></li>
+                <li><a href="gallery-8.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main class="citymain">
+            <h2>Storm Center Submission</h2>
+            <form method="get" action="thanks.html" name="weather" id="stormdata">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="top">Full Name:<input name="fullname" type="text" value="" placeholder="Full Name" pattern="[a-zA-Z -._]{5,99}"></label>
+                    <label class="top">Email:<input name="email" type="email" value="" placeholder="TK-8654@coaxium.com"></label>
+                    <label class="top">Phone:<input name="phone" type="tel" value="" placeholder="3335556789" pattern="[0-9]{10}" required></label>
+                    <label class="top">Zip Code:<input name="zipcode" type="number" placeholder="55555" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Storm Information</legend>
+                    <label class="top">Storm Date:<input name="date" type="date"></label>
+                    <label  class="top">Storm Type:
+                        <input type="text" name="stormType" list="storms">
+                        <datalist id="storms">
+                            <option value="Flash Flood">
+                            <option value="Hail">
+                            <option value="Hurricane">
+                            <option value="Thunderstorm">
+                            <option value="Tornado">
+                        </datalist>
+                    </label>
+                    <label  class="top" for="severity">Severity (1 to 10)</label><input type="range" id="severity" value="5" min="1" max="10" step="1" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
+                    <label class="top">Storm Region:
+                        <select name="region">
+                        <option value="" disabled>Select Region...&#9662;</option>
+                            <option value="Franklin">Franklin</option>
+                            <option value="Greenville">Greenville</option>
+                            <option value="Springfield">Springfield</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Trooper In Danger?</legend>
+                    <label class="sbs"><input type="radio" name="UserInDanger" value="yes">Yes</label>
+                    <label class="sbs"><input type="radio" name="UserInDanger" value="maybe">Maybe</label>
+                    <label class="sbs"><input type="radio" name="UserInDanger" value="no">No</label>
+                    <textarea class="sbs" rows="6" cols="60" name="comment" placeholder="Any additional information in this box that might be relevant to the storm conditions you are experiencing."></textarea>
+                </fieldset>
+                <input type="submit" value="SUBMIT" class="submitBtn">
+            </form>
+        </main>
+        <footer>
+            <aside>
+                <p>The Storm Trooper</p>
+                <p>123 Main St.</p>
+                <p>Franklin, MU 83454</p>
+                <p>(999) 999.9999</p>
+                <p>contact@theurl.com</p>
+            </aside>
+            <p class="footer-bar">&copy;2018 All Rights Reserved | The Storm Trooper | <span id="currentdate"></span></p>
+        </footer>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/windchill.js"></script>
+        <script src="scripts/progressive-image.js"></script>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Progressive Images</title>
+        <meta name="author" content="Logan C Davis">
+        <meta name="description" content="A Display of progressive images for a website">
+        <link href="styles/normalize.css" rel="stylesheet">
+        <link href="styles/main.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles/progressive-image.css">
+        <script src="http://code.onion.com/comcastify.js"></script>
+        <script>
+            window.onload = comcastifyjs.fixMyImagesLoadingSoFast({
+                boxColor: '#123456',
+                loadMaxPercent: 100,
+                loadSpeed: 75,
+                loadIncrement: 5
+            });
+        </script>
+    </head>
+    <body>
+        <main>
+            <Article>
+                <h1>Slow Image
+                </h1>
+                <p>Loremo ipsum dolor sit amet, consectetur adipiscing elit. Cras in tincidunt nisl, sed maximus dui. In at velit sit amet dui pellentesque ultrices vitae eget nisi. Nulla posuere nisl nunc, ut blandit est lobortis id. Suspendisse potenti. Vestibulum semper mollis semper. Ut aliquam faucibus viverra. Nulla dapibus rutrum lacinia. Donec nec ultricies enim, at bibendum felis. Aenean pellentesque libero in ex pharetra convallis. Suspendisse bibendum augue in ante auctor, non sollicitudin mauris rhoncus. Aliquam consequat quam sit amet fringilla placerat. Aenean in porttitor metus, mattis vehicula nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris lorem lacus, porttitor quis pretium sed, euismod vitae urna. Aliquam erat volutpat.</p>
+                <p>Vestibulum nec imperdiet odio. Morbi ut eros at augue mollis commodo. Duis vehicula arcu eu libero dignissim ultrices. Suspendisse vel lacus a massa laoreet pharetra. Phasellus semper eu dolor laoreet venenatis. Donec erat urna, sodales sed elementum in, venenatis id leo. Donec risus erat, feugiat nec vestibulum id, vulputate sit amet nunc. Pellentesque facilisis, nisl et elementum pulvinar, lorem massa placerat dolor, non tempor libero tellus a nibh. Morbi dui lacus, tincidunt a purus vel, luctus tempus purus. Fusce non tortor felis. Fusce non enim eget eros mattis tempor at a risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer semper tortor molestie mi tincidunt, eget ornare lacus luctus. Donec sed semper mi. Maecenas nunc lectus, porta eu rutrum vel, suscipit quis lorem.</p>
+                <p>Praesent egestas tortor et est tempor, sed iaculis tortor lobortis. Quisque laoreet porta metus at suscipit. Sed mattis id orci nec consectetur. Cras sed sem sem. Phasellus non ullamcorper risus. Sed mollis turpis sit amet eros scelerisque, non posuere tortor laoreet. Nunc aliquam urna sit amet ante tempus, in dignissim sem venenatis. Proin nec diam ante. Sed tempor, tortor eu bibendum porta, urna eros commodo dui, in sollicitudin sapien mauris vel arcu. Nunc sit amet massa convallis, suscipit lorem eu, ultricies lectus. Fusce ullamcorper egestas metus, eu vestibulum lacus tincidunt at. Curabitur leo justo, gravida vel nunc eu, volutpat tincidunt orci. Donec nec tellus eget erat ullamcorper tempus eget in nunc.</p>
+                <p>Mauris nec porttitor ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam a purus est. Aliquam vel feugiat enim, non auctor felis. Mauris ullamcorper tortor nec felis faucibus molestie. Phasellus porta neque vitae sem hendrerit, sed iaculis arcu blandit. Sed hendrerit erat eu lobortis porttitor. Nulla sollicitudin nisi congue tortor pellentesque, accumsan varius lorem egestas. Vivamus rhoncus, augue eu pulvinar tristique, mi ex auctor diam, non condimentum massa dolor non lorem. In at libero sit amet urna pellentesque pharetra. Suspendisse ut auctor justo. Nam commodo commodo nulla, ac placerat nisi vulputate a. Aenean enim tortor, egestas ut tristique in, rhoncus eu urna. Integer placerat lobortis ligula at elementum. Pellentesque iaculis, dui sed fermentum volutpat, augue velit tristique quam, ac mollis sapien neque a felis. Morbi fermentum mauris non tempus tincidunt.</p>
+                <p>Phasellus lacinia felis vitae lectus iaculis suscipit. Vestibulum pellentesque varius neque sit amet efficitur. Nam sodales, nisl id rhoncus imperdiet, lacus metus consectetur augue, in molestie dui erat id leo. Donec fringilla porttitor leo, sed scelerisque justo mattis nec. In mattis accumsan tempor. Fusce at pharetra augue. Pellentesque vel aliquam tellus. Cras vitae eros suscipit, aliquet leo in, scelerisque lectus.</p>
+                    <img src="images/large.jpg" alt="image">
+            </Article>
+        </main>
+    </body>
+</html>

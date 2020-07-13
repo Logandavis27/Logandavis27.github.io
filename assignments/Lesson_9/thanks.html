@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Storm Trooper - Thanks</title>
+        <meta name="author" content="Logan C Davis">
+        <meta name="description" content="Weather information form gratitude page">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2%7CGeostar+Fill%7COrbitron%7CTitillium+Web" rel="stylesheet">
+        <link href="styles/normalize.css" rel="stylesheet">
+        <link href="styles/main.css" rel="stylesheet">
+        <link href="styles/medium.css" rel="stylesheet">
+        <link href="styles/large.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles/progressive-image.css">
+        <link rel="icon" type="image/png" href="images/favicon.ico">
+    </head>
+    <body>
+        <header class="header">
+            <picture class="logo">
+                <source media="(min-width: 1024px)" srcset="images/stormgroup.png">
+                <source media="(min-width: 600px)" srcset="images/stormbody.png">
+                <img src="images/stormhead.png" alt="Logo">
+            </picture>
+            <div class="headergroup">
+                <h1>The Storm Trooper</h1>
+                <h2>Everywhere We Mist</h2>
+            </div>
+        </header>
+        <nav>
+            <button onclick="toggleNavMenu()">&#9776;</button>
+            <ul id="navmenu" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="franklin.html">Franklin</a></li>
+                <li><a href="#">Greenville</a></li>
+                <li><a href="#">Springfield</a></li>
+                <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <article class="gratitude">
+            <h2>The Empire Accepts Your Submission</h2>
+            <p>The data you have provided will be used to modify flight plans of the battle cruisers.  Return to your post and be vigilant, Jedi spies are everywhere.</p>
+            </article>
+        </main>
+        <footer>
+            <aside>
+                <p>The Storm Trooper</p>
+                <p>123 Main St.</p>
+                <p>Franklin, MU 83454</p>
+                <p>(999) 999.9999</p>
+                <p>contact@theurl.com</p>
+            </aside>
+            <p class="footer-bar">&copy;2018 All Rights Reserved | The Storm Trooper | <span id="currentdate"></span></p>
+        </footer>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/windchill.js"></script>
+        <script src="scripts/progressive-image.js"></script>
+    </body>
+</html>

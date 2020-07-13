@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    font-size: 16px;
+    color: #dbe4eb;
+    background: #131114;
+}
+
+h1 {
+    margin-left: 15px;
+    font-family: 'Geostar Fill', cursive;
+    font-size: 3em;
+    line-height: .85em;
+}
+
+h2, h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5em;
+    line-height: .8em;
+    margin-top: 15px;
+}
+
+h6 {
+    display: none;
+}
+
+th {
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+}
+
+nav button {
+    height: 32px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 2px solid #9e0606;
+    background: #131114;
+}
+
+nav ul li a {
+    color: #067ece;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+nav ul li.active a {
+    background-color: rgba(158, 6, 6, .50);
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 32, 73, .85);
+}
+
+nav ul.hide {
+    display: none;
+}
+
+main h2, main h3 {
+    text-align: center;
+    line-height: 1.25em;
+}
+
+p {
+    font-family: 'Exo 2', sans-serif;
+}
+
+footer {
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgba(158, 6, 6, .30);
+}
+
+footer p {
+    font-family: 'Orbitron', sans-serif;
+}
+
+footer aside {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgba(158, 6, 6, .40);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 180px;
+    max-width: 600px;
+}
+
+.logo {
+    width: 30%;
+    height: 100%;
+}
+
+.logo img {
+    width: 100%;
+    border: 2px solid #9e0606;
+}
+
+.headergroup{
+    width: 70%;
+}
+
+.headergroup h1 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2px;
+}
+
+.headergroup h2 {
+    width: 100%;
+    line-height: 1.5em;
+    margin-top: -20px;
+}
+
+.weather {
+    text-align: center;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.summary {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.summary h2 {
+    width: 100%;
+}
+
+#raindrops {
+    width: 100%;
+}
+
+#raindrops img{
+    width: 100%;
+    border: 2px solid #9e0606;
+}
+
+.current1 {
+    max-width: 512px;
+    width: 50%;
+}
+
+.current2 {
+    max-width: 300px;
+    width: 50%;
+}
+
+table {
+    display: none;
+}
+
+.weatherimg {
+    width: 100%;
+    border: none;
+}
+
+.citystory {
+    border: 2px solid #9e0606;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.weatherstory {
+    border: 2px solid #9e0606;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+figure>img {
+    width: 100%;
+    border: 2px solid #9e0606;
+}
+
+.figure {
+    width: 100%;
+    margin: 0;
+}
+
+article {
+    margin-left: .75em;
+    margin-right:  .75em;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid #067ece;
+}
+
+td {
+    font-size: 12px;
+}
+
+th {
+    height: 50px;
+}
+
+.forecast {
+    width:  100%;
+}
+
+

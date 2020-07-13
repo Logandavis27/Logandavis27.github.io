@@ -1,0 +1,488 @@
+body {
+    background-color: #d8d8db;
+    color: #292b3c;
+}
+
+h1 {
+    font-family: 'Frijole', cursive;
+    color: #dc5650;
+    text-shadow: 2px 2px #292b3c;
+}
+
+h2 {
+    font-family: 'IM Fell DW Pica SC', serif;
+    color: #dc5650;
+    text-shadow: 2px 2px #292b3c;
+}
+
+h3 {
+    font-family: 'IM Fell DW Pica SC', serif;
+    color: #292b3c;
+    font-size: 1.5rem;
+    text-align: center;
+    text-shadow: 1px 1px #fff;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #292b3c;
+}
+
+aside p {
+    font-family: 'Josefin Slab', serif;
+    color: #292b3c;
+    align-content: center;
+}
+
+li {
+    font-family: 'Encode Sans', sans-serif;
+}
+
+form, form p {
+    font-family: 'Encode Sans', sans-serif;
+}
+
+form p {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+nav button {
+    height: 32px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 2px solid #a1c1e8;
+    background: #292b3c;
+}
+
+nav ul li a {
+    color: #d8d8db;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+nav ul li {
+    background-color: #292b3c;
+    transition: 0.5s;
+    border-left: 0.5px solid #a1c1e8;
+    border-bottom: 0.5px solid #a1c1e8;
+}
+
+nav ul li.active {
+    background-color: #dc5650;
+    transition: 0.5s;
+}
+
+nav ul li:hover {
+    background-color: #a1c1e8;
+    transition: 0.5s;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 600px;
+}
+
+#logo>img {
+    width: 100%;
+    border: 2px solid #dc5650;
+}
+.logoimage {
+    width: 30%;
+}
+
+.headergroup{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.headergroup h1 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2px;
+}
+
+.headergroup h2 {
+    width: 100%;
+    line-height: 1.5em;
+    margin-top: -20px;
+}
+
+.image1 {
+    background-image: url('/assignments/mountain_spoke/images/header.jpg');
+    background-size: 100%;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -4;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    background-repeat: no-repeat;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#mainindex>ul>li {
+    list-style: none;
+    text-align: center;
+    font-size: .95rem;
+}
+.storycontent ul {
+    padding-left: 0;
+}
+
+.storycontent li {
+    list-style-position: inside;
+    list-style:square;
+    font-style: italic;
+}
+
+.storycontent ul>li>ul>li {
+    padding-left: 2rem;
+}
+
+.requirements {
+    font-size: .75rem;
+}
+
+#mainindex>h3 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 2rem;
+    max-width: 85%;
+}
+
+#mainindex>p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+    max-width: 85%;
+}
+
+#mainindex>ul {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+}
+
+li img {
+    width: 2rem;
+}
+
+main>section>picture>img {
+    width: 100%;
+}
+
+.leadstory {
+    display: flex;
+    flex-direction: column;
+}
+
+article img, iframe {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px groove #dc5650;
+}
+
+article>section>p {
+    text-indent: 2em;
+}
+.storycontent {
+    margin: 10px;
+}
+
+footer {
+    margin: 10px;
+}
+.icon {
+    height: 5%;
+    max-height: 50px;
+}
+.socialmedia {
+    float: right;
+}
+
+h6 {
+    display: none;
+}
+
+form fieldset {
+    margin: auto;
+    border: 2px solid #292b3c;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    width: 50%;
+    min-width: 23rem;
+    text-align: left;
+}
+
+form legend {
+    font-size: 1.2rem;
+    color: #292b3c;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    text-align: left;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #292b3c;
+    font-size: 1.2rem;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1.2rem;
+    border: 2px solid #a1c1e8;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label .sbs {
+    display: block;
+    padding: .75rem;
+    color: #555;
+    width: 90%;
+}
+form {
+    text-align: center;
+}
+
+form input.submitBtn {
+    border: 2px solid #292b3c;
+    text-decoration: none;
+    background-color: #dc5650;
+    color: #292b3c;
+    border-radius: 1rem;
+    padding: .75rem;
+    width: 96%;
+    max-width: 20rem;
+    font-size: 2rem;
+    opacity: .9;
+    transition: 0.5s;
+    margin: 2rem;
+    text-align: center;
+
+}
+form input.submitBtn:hover {
+    opacity: 1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+form label.top input:required {
+    border-left: #8c0101 solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: #008c26 solid 6px;
+}
+
+form label.sbs {
+    padding: .5rem 0;
+}
+
+.question {
+    font-weight: bold;
+}
+
+.answer {
+    font-style: italic;
+}
+
+.button {
+    border: 2px solid #292b3c;
+    align-self: center;
+    text-decoration: none;
+    background-color: #dc5650;
+    color: #292b3c;
+    border-radius: 1rem;
+    padding: .75rem;
+    margin: 2rem;
+    width: 96%;
+    max-width: 20rem;
+    text-align: center;
+    font-size: 2rem;
+    opacity: .9;
+    transition: 0.5s;
+}
+
+.button:hover {
+    opacity: 1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+main>article>section>table {
+    align-self: center;
+}
+table {
+    margin: auto;
+    align-self: center;
+    border-spacing: 2px;
+    text-align: left;
+    box-shadow: 6px 6px 8px #dc5650;
+}
+
+table, th, td {
+    border: solid 1px #dc5650;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(odd) {
+    background-color: #dbdbd8;
+}
+
+table tr:nth-child(even) {
+    background-color: #a1c1e8;
+}
+
+thead td{
+    font-weight: 500;
+    color: #292b3c;
+    font-size: 1em;
+    background-color: #a1c1e8;
+}
+
+table th {
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #292b3c;
+}
+
+
+td, th {
+    padding: 7px;
+}
+
+td {
+    font-size: .9em;
+}
+.accordion h3 {
+    margin-top: 15px;
+    text-shadow: 1px 1px #fff;
+}
+
+.accordion p {
+    margin: auto;
+    text-align: center;
+}
+
+.accordion img {
+    width: 50%;
+    border-radius: 10px;
+    border: 1px groove #dc5650;
+}
+
+.accordion, .accordion * {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+.accordion {
+    overflow:hidden;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+    border-radius:3px;
+    background:#dbdbd8;
+    text-align: center;
+}
+
+.accordion-section-title {
+    width:100%;
+    padding:5px;
+    display:inline-block;
+    border-bottom:1px solid #1a1a1a;
+    background:#a1c1e8;
+    transition:all linear 0.15s;
+    /* Type */
+    font-size:1.200em;
+    text-shadow:0px 1px 0px #1a1a1a;
+    color:#fff;
+}
+
+.accordion-section-title.active,
+.accordion-section-title:hover {
+    background:#a1c1e8;
+    /* Type */
+    text-decoration:none;
+}
+
+.accordion-section:last-child .accordion-section-title {
+    border-bottom:none;
+}
+
+/*----- Section Content -----*/
+.accordion-section-content {
+    padding:15px;
+    display:none;
+}
+
+.bikeservices {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+    background: #B1B1B4;
+}
+
+.services {
+    margin: 15px;
+    width: 90%;
+    align-self: flex-start;
+}
+
+.services tr:hover {
+    background:#a1e8ae;
+}
+.services th{
+    text-align: center;
+}
+
+.homenavboxes {
+    display: none
+}
+#center {
+    text-align: center;
+}
+
+.contactus {
+    text-align: center;
+}

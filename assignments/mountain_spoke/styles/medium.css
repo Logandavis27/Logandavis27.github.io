@@ -1,0 +1,156 @@
+@media only screen and (min-width: 37.5rem) {
+nav button {
+    display: none;
+}
+
+nav ul.hide {
+    display: flex;
+    flex-flow: wrap;
+}
+
+nav ul li {
+    display: flex;
+    width: 16.58%;
+    min-height: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#logo>img {
+    width: auto;
+    height: 200px;
+    border: 2px solid #dc5650;
+}
+
+header {
+    max-width: none;
+}
+
+.headergroup h1 {
+    font-size: 2.5rem;
+}
+
+.headergroup h2 {
+    font-size: 2rem;
+}
+.leadstory1, .leadstory2 {
+    display: block;
+    background: #E2E2E4;
+}
+
+.leadstory2 {
+    display: block;
+    background: #B1B1B4;
+    }
+
+.leadstory1 img {
+    width: 40%;
+    float: left;
+    padding: 5px;
+}
+
+.leadstory2 img {
+    width: 40%;
+    float: right;
+    padding: 5px;
+}
+
+article img {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#mainindex>ul>li {
+    font-size: 1.7rem;
+}
+
+.storycontent ul>li>ul>li {
+    padding-left: 2.5rem;
+    list-style: none;
+    list-style-position: inside;
+}
+
+#register {
+    max-width: 90%;
+    align-self: center;
+    margin: auto;
+}
+
+* img {
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+iframe {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.phoneafriend{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.icon {
+    box-shadow: none;
+    transition: 0.5s;
+}
+
+.socialmedia .icon:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+.homenavboxes {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-content: space-between;
+    margin: auto;
+}
+.homelist {
+    display: none;
+}
+.navbox {
+    border: 4px solid #292b3c;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 17%;
+    text-align: center;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+.navbox img {
+    width: 100%
+}
+.navbox:hover {
+    opacity: 1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    transition: 0.5s;
+}
+.detailslist {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+.detailslist li {
+    list-style-position: inside;
+}
+.contactus {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ride, .callus {
+    width: 45%;
+    padding: 10px;
+}
+.romancelist li {
+    list-style-position: inside;
+}
+.googlemap {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+}

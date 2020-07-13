@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    font-size: 16px;
+    color: #dbe4eb;
+    max-width: 1300px;
+    background-image: radial-gradient(circle, #000000, #060405, #0c090b, #100d10, #131114);
+}
+
+h1 {
+    font-family: 'Geostar Fill', cursive;
+    font-size: 3em;
+    line-height: .85em;
+}
+
+.subheading {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+header img {
+    border: 2px solid #9e0606;
+    margin: 2px;
+    max-width: 300px;
+    min-width: 150px;
+}
+
+h2, h3 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #067ece;
+    text-decoration: none;
+}
+
+nav ul li.active a {
+    background-color: #dbe4eb;
+}
+
+nav ul li a:hover {
+    background-color: #002049;
+}
+
+section>figure>img {
+    border: none;
+    width: 15%;
+    max-width: 200px;
+}
+
+table, th, td {
+    border: 2px solid #067ece;
+}
+
+table td {
+    border: 2px solid #067ece;
+    text-align: center;
+}
+
+table img {
+    border: none;
+    width: 100%;
+    min-width: 85px;
+    max-width: 250px;
+}
+
+article figure>img {
+    border: 2px solid #9e0606;
+    margin: 2px;
+    width: 85%;
+    max-width: 400px;
+}
+
+p {
+    font-family: 'Exo 2', sans-serif;
+}
+
+footer {
+    padding-top: 10px;
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Orbitron', sans-serif;
+}
+
+footer aside {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
