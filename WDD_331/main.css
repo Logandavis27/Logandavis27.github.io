@@ -1,4 +1,8 @@
 *
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+</style>
+
 main {
     background: #FAEBD7
 }
@@ -7,7 +11,10 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-h1, h2 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Lora', serif;
-    color: red;
+}
+
+a {
+    color: #6495ED;
 }
