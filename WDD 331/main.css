@@ -1,0 +1,13 @@
+*
+main {
+    background: #FAEBD7
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Lora', serif;
+    color: red;
+}
