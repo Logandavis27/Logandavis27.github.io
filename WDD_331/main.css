@@ -4,12 +4,17 @@
 </style>
 
 body {
-    margin: 0;
+    margin: 0px;
     font-family: Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lora', serif;
+    margin: 15px;
+}
+
+h1 {
+    text-align: right;
 }
 
 header {
@@ -22,6 +27,17 @@ header {
     color: #FAEBD7;
     background-color: #6495ED;
 }
+ul {
+    list-style-type: none;
+    margin: 15px;
+}
+
+li{
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 header a:link, header a:visited {
     color: #FAEBD7;
     text-decoration: none;
@@ -33,10 +49,6 @@ header a:hover {
 }
 header a:active {
     color: #DEB887;
-}
-
-header a {
-    display: block;
 }
 
 header a.active {
@@ -78,13 +90,34 @@ article a:hover {
     text-decoration: underline;
 }
 
+article {
+    width: auto;
+    margin: 50px auto;
+    box-shadow:  5px 5px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    display: block;
+    margin: 15px;
+    padding: 15px;
+    background: white;
+}
+
+.post-date {
+    color:grey;
+}
+
+article img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 @media screen and (max-width: 700px) {
     header {
         width: 100%;
         height: auto;
         position: relative;
     }
-    header a {float: left;}
     main {margin-left: 0;}
 }
 
