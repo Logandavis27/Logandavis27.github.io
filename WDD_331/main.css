@@ -47,12 +47,13 @@ header a:link, header a:visited {
     text-decoration: none;
 }
 
+header a:active {
+    color: #DEB887;
+}
+
 header a:hover {
     color: white;
     text-decoration: underline;
-}
-header a:active {
-    color: #DEB887;
 }
 
 header a.active {
