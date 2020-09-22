@@ -64,12 +64,13 @@ nav ul li a {
 
 
 nav ul li.active a {
-    background-color: rgba(158, 6, 6, .70);
+    background-color: rgba(0, 0, 0, .70);
     transition: 0.5s;
 }
 
+
 nav ul li a:hover {
-    background-color: rgba(0, 32, 73, .95);
+    background-color: rgba(255, 188, 64, .95);
     transition: 0.5s;
 }
 
@@ -89,7 +90,7 @@ p {
 footer {
     padding-top: 10px;
     text-align: center;
-    background-color: rgba(158, 6, 6, .30);
+    background-color: #8f4607;
     margin-top: 15px;
     display: flex;
     flex-direction: column;
@@ -211,6 +212,13 @@ table {
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+ .citystory h2 {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2em;
+    line-height: .85em;
 }
 
 .weatherstory {
