@@ -8,13 +8,13 @@ body {
     margin: auto;
     font-size: 16px;
     color: #dbe4eb;
-    background: #131114;
+    background: #8f4607;
 }
 
 h1 {
     margin-left: 15px;
     font-family: 'Shadows Into Light', cursive;
-    font-size: 3em;
+    font-size: 3.25em;
     line-height: .85em;
 }
 
@@ -48,12 +48,12 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    border: 2px solid #9e0606;
+    border: 2px solid #ff7600;
     background: #131114;
 }
 
 nav ul li a {
-    color: #067ece;
+    color: #ff7600;
     text-decoration: none;
     font-size: 1.25em;
 }
@@ -121,24 +121,25 @@ header {
 #logo img {
     width: auto;
     max-height: 200px;
-    border: 2px solid #9e0606;
+    border: 2px solid #ff7600;
 }
 
 .headergroup{
     width: 70%;
+    text-align: center;
 }
 
 .headergroup h1 {
     width: 100%;
-    margin-left: 0;
     margin-right: 0;
     margin-top: 2px;
 }
 
 .headergroup h2 {
     width: 100%;
-    line-height: 1.5em;
+    line-height: 2em;
     margin-top: -20px;
+
 }
 
 .weather {
@@ -167,7 +168,7 @@ header {
 
 #raindrops img{
     width: 100%;
-    border: 2px solid #9e0606;
+    border: 2px solid #ff7600;
 }
 
 .current1 {
@@ -179,7 +180,7 @@ header {
 .current1 img {
     align-content: center;
     width: 50%;
-    border: 1px solid #067ece;
+    border: 1px solid #ff7600;
     border-radius: 8px;
     background-color: rgba(0, 32, 73, .85)
 }
@@ -206,14 +207,14 @@ table {
 }
 
 .citystory {
-    border: 2px solid #9e0606;
+    border: 2px solid #ff7600;
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
 .weatherstory {
-    border: 2px solid #9e0606;
+    border: 2px solid #ff7600;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -221,7 +222,7 @@ table {
 
 figure {
     width: 100%;
-    border: 2px solid #067ece;
+    border: 2px solid #ff7600;
     border-radius: 8px;
 }
 
@@ -236,7 +237,7 @@ article {
 }
 
 table {
-    border: 1px solid #9e0606;
+    border: 1px solid #ff7600;
 }
 table, th, td {
     border-collapse: collapse;
@@ -244,12 +245,12 @@ table, th, td {
 }
 
 td {
-    border: 1px solid #067ece;
+    border: 1px solid #ff7600;
     font-size: 1.2rem;
 }
 
 th {
-    border: 1px solid #067ece;
+    border: 1px solid #ff7600;
     height: 50px;
 }
 
@@ -268,12 +269,12 @@ th {
     align-self: center;
     width: 100%;
     background: rgba(158, 6, 6, .40);
-    border: 2px solid #9e0606;
+    border: 2px solid #ff7600;
     border-radius: 1rem;
 }
 
 #maingallery {
-    border: 2px solid rgba(0, 32, 73, .85);
+    border: 2px solid rgba(0, 0, 0, .85);
     display: flex;
     flex-wrap: wrap;
 }
