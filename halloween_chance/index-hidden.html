@@ -1,0 +1,49 @@
+
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Storm Trooper - Everywhere We Mist</title>
+        <meta name="author" content="Logan C Davis">
+        <meta name="description" content="Weather information for visitors and residents with a Sci-Fi twist">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2%7CGeostar+Fill%7COrbitron%7CTitillium+Web" rel="stylesheet">
+        <link href="styles/normalize.css" rel="stylesheet">
+        <link href="styles/main.css" rel="stylesheet">
+        <link href="styles/medium.css" rel="stylesheet">
+        <link href="styles/large.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles/progressive-image.css">
+        <link rel="icon" type="image/png" href="images/favicon.ico">
+    </head>
+    <body>
+        <header includehtml="modules/header.html">
+        </header>
+        <nav>
+            <button onclick="toggleNavMenu()">&#9776;</button>
+            <ul id="navmenu" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="franklin.html">Franklin</a></li>
+                <li><a href="greenville.html">Greenville</a></li>
+                <li><a href="springfield.html">Springfield</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main id="mainindex">
+            <section class="jsondata">
+                <h6>text for validation</h6>
+            </section>
+        </main>
+        <footer>
+            <div includehtml="modules/footer.html">
+            </div>
+            <p class="footer-bar">&copy;2018 All Rights Reserved | The Storm Trooper | Weather data provided by OPENWEATHERMAP | <span id="currentdate"></span></p>
+        </footer>
+        <script src="scripts/include.js"></script>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/progressive-image.js"></script>
+        <script src="scripts/towndata.js"></script>
+        <script src="scripts/active.js"></script>
+    </body>
+</html>

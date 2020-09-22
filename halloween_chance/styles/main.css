@@ -1,0 +1,408 @@
+*
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Shadows+Into+Light&display=swap');
+
+{
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    font-size: 16px;
+    color: #dbe4eb;
+    background: #131114;
+}
+
+h1 {
+    margin-left: 15px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3em;
+    line-height: .85em;
+}
+
+h2, h3 {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 1.5em;
+    line-height: .8em;
+    margin-top: 15px;
+}
+
+h6 {
+    display: none;
+}
+
+th {
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+}
+
+nav button {
+    height: 32px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 2px solid #9e0606;
+    background: #131114;
+}
+
+nav ul li a {
+    color: #067ece;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+nav ul li a {
+    background-color: #131114;
+    transition: 0.5s;
+}
+
+
+nav ul li.active a {
+    background-color: rgba(158, 6, 6, .70);
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 32, 73, .95);
+    transition: 0.5s;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+main h2, main h3 {
+    text-align: center;
+    line-height: 1.25em;
+}
+
+p {
+    font-family: 'Exo 2', sans-serif;
+}
+
+footer {
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgba(158, 6, 6, .30);
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer p {
+    font-family: 'Orbitron', sans-serif;
+}
+
+footer aside {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgba(158, 6, 6, .40);
+}
+
+.citymain {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 600px;
+}
+
+#logo img {
+    width: auto;
+    max-height: 200px;
+    border: 2px solid #9e0606;
+}
+
+.headergroup{
+    width: 70%;
+}
+
+.headergroup h1 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2px;
+}
+
+.headergroup h2 {
+    width: 100%;
+    line-height: 1.5em;
+    margin-top: -20px;
+}
+
+.weather {
+    text-align: center;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.summary {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.summary h2 {
+    width: 100%;
+}
+
+#raindrops {
+    width: 100%;
+}
+
+#raindrops img{
+    width: 100%;
+    border: 2px solid #9e0606;
+}
+
+.current1 {
+    margin: auto;
+    max-width: 512px;
+    width: 50%;
+}
+
+.current1 img {
+    align-content: center;
+    width: 50%;
+    border: 1px solid #067ece;
+    border-radius: 8px;
+    background-color: rgba(0, 32, 73, .85)
+}
+
+.current2 {
+    margin: auto;
+    max-width: 300px;
+    width: 50%;
+}
+
+table {
+    display: none;
+}
+
+.weatherimg {
+    width: 100%;
+    border: none;
+    opacity: .9;
+}
+
+.weatherimg:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.citystory {
+    border: 2px solid #9e0606;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.weatherstory {
+    border: 2px solid #9e0606;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+figure {
+    width: 100%;
+    border: 2px solid #067ece;
+    border-radius: 8px;
+}
+
+.figure {
+    width: 100%;
+    margin: 0;
+}
+
+article {
+    margin-left: .75em;
+    margin-right:  .75em;
+}
+
+table {
+    border: 1px solid #9e0606;
+}
+table, th, td {
+    border-collapse: collapse;
+
+}
+
+td {
+    border: 1px solid #067ece;
+    font-size: 1.2rem;
+}
+
+th {
+    border: 1px solid #067ece;
+    height: 50px;
+}
+
+.forecast {
+    width:  100%;
+}
+
+.weathergallery {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+}
+
+.galleryimg {
+    align-self: center;
+    width: 100%;
+    background: rgba(158, 6, 6, .40);
+    border: 2px solid #9e0606;
+    border-radius: 1rem;
+}
+
+#maingallery {
+    border: 2px solid rgba(0, 32, 73, .85);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#maingallery h2, #maingallery h3 {
+    width: 100%;
+}
+
+.weathergallery a {
+    text-align: center;
+    text-decoration: none;
+    color: #dbe4eb;
+}
+
+figcaption {
+    font-family: 'Exo 2', sans-serif;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 2px solid rgba(158, 6, 6, .40);
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    font-size: 1.2rem;
+    color: #dbe4eb;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #dbe4eb;
+    font-size: 1.2rem;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1.2rem;
+    border: 2px solid rgba(158, 6, 6, .40);
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: rgba(158, 6, 6, .40);
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+form label.sbs {
+    padding: .5rem 0;
+}
+
+.gratitude {
+    text-align: center;
+}
+
+.jsondata img {
+    width: 100%;
+    background: rgba(158, 6, 6, .40);
+    border: 2px solid #9e0606;
+    border-radius: 1rem;
+}
+
+.jsondata article {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    width: 100%;
+    background: rgba(158, 6, 6, .40);
+    border: 2px solid #9e0606;
+    border-radius: 1rem;
+    text-align: center;
+    align-content: stretch;
+}
+
+.jsondata {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around;
+    min-height: 650px;
+}
+
+.jsondata li {
+    font-size: .9rem;
+    list-style: none;
+    margin-left: -25px;
+}
+
+.jsondata1 {
+    border: 2px solid #9e0606;
+    width: 100%;
+    text-align: center;
+}
+
+.jsondata1 li {
+    list-style: none;
+    margin-left: -25px;
+}

@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Storm Trooper - City of Greenville</title>
+        <meta name="author" content="Logan C Davis">
+        <meta name="description" content="Weather information for visitors and residents of Greenville with a Sci-Fi twist">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2%7CGeostar+Fill%7COrbitron%7CTitillium+Web" rel="stylesheet">
+        <link href="styles/normalize.css" rel="stylesheet">
+        <link href="styles/main.css" rel="stylesheet">
+        <link href="styles/medium.css" rel="stylesheet">
+        <link href="styles/large.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles/progressive-image.css">
+        <link rel="icon" type="image/png" href="images/favicon.ico">
+    </head>
+    <body>
+        <header includehtml="modules/header.html">
+        </header>
+        <nav>
+            <button onclick="toggleNavMenu()">&#9776;</button>
+            <ul id="navmenu" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="franklin.html">Franklin</a></li>
+                <li><a href="greenville.html">Greenville</a></li>
+                <li><a href="springfield.html">Springfield</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main class="citymain">
+            <aside class="weather">
+                <div class="weather1">
+                    <h6>test</h6> <!-- for validation -->
+                    <picture id="raindrops">
+                        <source media="(min-width: 1024px)" srcset="images/gstreetlarge.jpg">
+                        <source media="(min-width: 600px)" srcset="images/gstreetmedium.jpg">
+                        <img src="images/gstreetsmall.jpg" alt="Mainstreet Greenville TX">
+                    </picture>
+                    <!-- <img src="images/largefranklin.png" alt="The Big Sky of Franklin" sizes="50vw"
+srcset="images/smallfranklin.png 450w,
+images/mediumfranklin.png 800w,
+images/largefranklin.png 1250w">
+</picture> -->
+                    <section class="weather-summary">
+                        <h6>validation</h6>
+                        <div class= "advice">
+                        </div>
+                        <h2 id="forecast">Forecast</h2>
+                        <h2>Weather conditions for <span id="place">city</span>:</h2>
+                        <div class="highlow">
+                            <section class="current1">
+                                <h6>text</h6>
+                                <img src="images/placeholder.png" alt="current weather" id="weather_icon1">
+                            </section>
+                            <section class="current2">
+                                <h6>text</h6>
+                                <p>Current temperature is: <span id="dayOneTemp">00</span>&deg;F</p>
+                                <p>Weather Conditions: <span id="weatherDescOne">00</span></p>
+                                <p>Expected High Temperature: <span id="highTemp">00</span>&deg;F</p>
+                                <p>Expected Low Temperature: <span id="lowTemp">00</span>&deg;F</p>
+                                <p>Wind Speed: <span id="currentWind">00</span> MPH</p>
+                            </section>
+                        </div>
+                        <div class="current">
+                        </div>
+                        <div class="conditions">
+                        </div>
+                    </section>
+                </div>
+                <aside class="forecast">
+                    <table>
+                        <tr>
+                            <th colspan="5"><p>5 Day Forecast</p></th>
+                        </tr>
+                        <tr>
+                            <td><span id="day2"></span></td>
+                            <td><span id="day3"></span></td>
+                            <td><span id="day4"></span></td>
+                            <td><span id="day5"></span></td>
+                            <td><span id="day6"></span></td>
+                        <tr>
+                            <td><span id="dayTwoTemp">00</span>&deg;F</td>
+                            <td><span id="dayThreeTemp">00</span>&deg;F</td>
+                            <td><span id="dayFourTemp">00</span>&deg;F</td>
+                            <td><span id="dayFiveTemp">00</span>&deg;F</td>
+                            <td><span id="daySixTemp">00</span>&deg;F</td>
+                        </tr>
+                        <tr>
+                            <td><span id="weatherDescTwo">00</span></td>
+                            <td><span id="weatherDescThree">00</span></td>
+                            <td><span id="weatherDescFour">00</span></td>
+                            <td><span id="weatherDescFive">00</span></td>
+                            <td><span id="weatherDescSix">00</span></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/placeholder.png" alt="current weather" id="weather_icon2"></td>
+                            <td><img src="images/placeholder.png" alt="current weather" id="weather_icon3"></td>
+                            <td><img src="images/placeholder.png" alt="current weather" id="weather_icon4"></td>
+                            <td><img src="images/placeholder.png" alt="current weather" id="weather_icon5"></td>
+                            <td><img src="images/placeholder.png" alt="current weather" id="weather_icon6"></td>
+                        </tr>
+                    </table>
+                </aside>
+            </aside>
+            <section class="citystory">
+                <h2>The City of Greenville - The Misty City</h2>
+                <article class="citystory1">
+                    <figure id="cityfigure" class="figure">
+                        <a href="images/ghistmedium.jpg"
+                           data-srcset="images/ghistmedium.jpg 800w, images/ghistlarge.jpg 1200w"
+                           data-sizes="100vw"
+                           class="progressive replace">
+                            <img src="images/ghistsmall.jpg" class="preview" alt="Cotton Scene Square" />
+                        </a>
+                    </figure>
+                    <h3>Cotton Scene Square History Revival</h3>
+                    <p>Candy croissant I love candy sesame snaps I love. Jelly candy pastry I love sweet chocolate bar. Liquorice sesame snaps croissant gingerbread I love candy canes marshmallow cheesecake I love. Sweet sesame snaps cotton candy halvah gummi bears cake. Pudding brownie topping apple pie. Powder I love cotton candy. Ice cream brownie jelly-o chupa chups cheesecake tart. Cake liquorice lemon drops gummies lollipop fruitcake lemon drops tootsie roll cookie. Fruitcake chocolate bar soufflé biscuit tart topping liquorice gingerbread pastry. Dessert powder chupa chups pudding. Marzipan jelly beans macaroon sweet roll jelly beans. Dragée dragée I love bonbon I love biscuit lemon drops. Chocolate bar topping liquorice bonbon I love macaroon.</p>
+                    <p>Danish muffin donut tiramisu brownie. Fruitcake jelly beans marshmallow sesame snaps tiramisu danish. I love cookie bear claw candy canes macaroon ice cream. Marzipan cookie muffin candy gummi bears tiramisu gingerbread candy. Chocolate cake sesame snaps I love ice cream apple pie. Chocolate bar I love gummi bears tootsie roll chocolate bar muffin. I love I love oat cake cupcake jelly beans cookie pastry chocolate oat cake. Chocolate chocolate bar liquorice muffin fruitcake bonbon donut macaroon tiramisu. Sugar plum lemon drops sesame snaps. Icing tiramisu halvah halvah pie jelly beans I love soufflé. Cake I love oat cake halvah cake sugar plum pudding cotton candy croissant. Candy canes tart gummi bears fruitcake fruitcake cookie.
+                    </p>
+                </article>
+
+            </section>
+            <section class="weatherstory">
+                <h2>Event Story of the Week</h2>
+                <article class="weatherstory1">
+                    <figure id="weatherfigure" class="figure">
+                        <a href="images/geventmedium.jpg"
+                           data-srcset="images/geventmedium.jpg 800w, images/geventmedium.jpg 1200w"
+                           data-sizes="100vw"
+                           class="progressive replace">
+                            <img src="images/geventsmall.jpg" class="preview" alt="Firecracker 5K" />
+                        </a>
+                    </figure>
+                    <h3>Firecracker 5K</h3>
+                    <p>Chocolate bar marshmallow I love I love cake dessert powder bonbon lollipop. Gingerbread lemon drops brownie. Sesame snaps biscuit I love sugar plum marshmallow pastry I love. Danish dragée jelly chocolate cake cookie lemon drops chupa chups gummi bears brownie. Topping apple pie ice cream donut candy canes. Dessert tiramisu chocolate bar toffee I love wafer pie. Jelly beans cake powder. Wafer sesame snaps cotton candy gummies croissant ice cream gummi bears. Topping dessert gingerbread. Macaroon gummi bears I love gummi bears fruitcake muffin I love. Marzipan biscuit sweet icing cake sugar plum lemon drops pastry. Marzipan cake bear claw sweet roll. Topping carrot cake dragée cotton candy pudding. Jujubes I love marshmallow I love tiramisu caramels gummies.</p>
+                    <p>Cotton candy tiramisu I love powder jelly beans icing candy. Tootsie roll pastry candy chocolate. Jelly-o I love liquorice wafer gingerbread jelly beans bonbon I love. Ice cream cotton candy fruitcake tiramisu lemon drops chocolate candy canes caramels powder. Biscuit caramels pie I love wafer caramels soufflé ice cream cotton candy. Dessert chocolate lemon drops bonbon fruitcake lemon drops chocolate gummies carrot cake. Biscuit icing I love apple pie cake cotton candy lollipop I love. Gummies caramels I love icing. Liquorice toffee caramels gummi bears muffin apple pie tootsie roll icing. Chupa chups danish I love tart cheesecake lollipop brownie. Wafer lollipop pastry pie I love wafer. I love muffin tootsie roll wafer gummi bears.</p>
+                </article>
+            </section>
+            <section class="jsondata1"><h6>text</h6>
+            </section>
+        </main>
+            <footer>
+                <div includehtml="modules/footer.html">
+                </div>
+                <p class="footer-bar">&copy;2018 All Rights Reserved | The Storm Trooper | Weather data provided by OPENWEATHERMAP | <span id="currentdate"></span></p>
+            </footer>
+        <script src="scripts/include.js"></script>
+        <script src="scripts/weatherapig.js"></script>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/progressive-image.js"></script>
+        <script src="scripts/towndatag.js"></script>
+        <script src="scripts/active.js"></script>
+    </body>
+</html>
