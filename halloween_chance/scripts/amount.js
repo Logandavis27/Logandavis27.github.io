@@ -1,12 +1,6 @@
 
 function getAmount(){
     var amount = Math.floor(Math.random() * 10) + 1
-document.getElementById("amount").innerHTML=""+[amount]+"";
-}
-getAmount();
-
-function getQuote(){
-    var d = Math.floor(Math.random() * 10);
     var quoteT = new Array(10);
     quoteT[0] =  "Double, double toil and trouble; Fire burn and caldron bubble.";
     quoteT[1] = "It’s Halloween, everyone’s entitled to one good scare.";
@@ -18,7 +12,7 @@ function getQuote(){
     quoteT[7] =  "I’ve seen enough horror movies to know that any weirdo wearing a mask is never friendly.";
     quoteT[8] = "Do you believe in destiny? That even the powers of time can be altered for a single purpose? That the luckiest man who walks on this earth is the one who finds ... true love?";
     quoteT[9] = "I’m a homicidal maniac, they look just like everyone else.";
-    var n = quoteT[d];
+    var n = quoteT[amount-1];
     var authorT = new Array(10);
     authorT[0] =  "– From Shakespeare’s Macbeth";
     authorT[1] = "– Brackett, Halloween (1978)";
@@ -30,9 +24,9 @@ function getQuote(){
     authorT[7] =  "– Elizabeth, Friday the 13th Part VI: Jason Lives (1986)";
     authorT[8] = "– Dracula (1992)";
     authorT[9] = "– Wednesday, The Addams Family (1991)";
-    var x = authorT[d];
-
+    var x = authorT[amount-1];
+    document.getElementById("amount").innerHTML=""+[amount]+"";
     document.getElementById("quote").innerHTML = n;
     document.getElementById("author").innerHTML = x;
 }
-getQuote();
+getAmount();
