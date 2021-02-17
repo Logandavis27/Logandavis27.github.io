@@ -1,0 +1,11 @@
+.help::after {
+    content: ")";
+}
+
+.help::before {
+    content: "(";
+}
+
+fieldset p:nth-of-type(n+3) {
+    visibility: hidden;
+}
